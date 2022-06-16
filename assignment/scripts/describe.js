@@ -69,10 +69,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// Initialize 3 variables: isStudent with the boolean value of true, age with the numerical value of 34, and zip with the numerical value of 55407
+// Create a conditional function that logs the string "You're a student on the West Coast!" if the variable isStudent is true AND the variable zip is greater than 80000
+// If the previous condition is not met, the function will log the string "What are your hoppies?" if the variable isStudent is false OR the variable age has a value less than 30
+// If the previous condition is not met, the function will log the string "Welcome to Prime!" if the variable isStudent is true
+// If none of the previous conditions are met, the funciton logs "How about the weather?"
 
 //CODE
 /*
