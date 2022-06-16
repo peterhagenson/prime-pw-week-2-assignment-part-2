@@ -157,7 +157,9 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+FIX - I believe the way the condition is written will work fine, but it would more closely match the wording of the description to write it like this: (age >= minAge)
 if(minAge <= age) {
+FIX - This will not log the value "enter" as the description says. If age is greater than or equal to minAge, this will log "no entry". We should change this line to console.log("enter")
   console.log('no entry');
 } else {
   console.log('enter');
