@@ -43,10 +43,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// Initialize new variable "secret" without a value for later use
+// Initialize new variable "code" with the value of type number 123
+// Create a conditional function that sets assings the value of string "super" to the variable "sectre", and multiples the value of variable "code" by two if the variable code is strictly equal to the number 123.
+// If the vale of variable "code" is greater than the number 250, the variable "secret" will be set to the string "duper"
+// the value of variable "secret" will be logged to the console at the end of the function.
 
 //CODE
 /*
