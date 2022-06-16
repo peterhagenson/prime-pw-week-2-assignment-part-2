@@ -125,6 +125,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - the values of colorOne and colorTwo are switched. colorOne should be changed to string "blue" and color two should be changed to string "red"
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -142,6 +143,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+FIX - The description says we are checking for both conditions in the conditional function, but the function is using the OR operator. Instead of || we should have &&.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
