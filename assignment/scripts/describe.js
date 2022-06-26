@@ -28,6 +28,7 @@ if (number >= 2) {
 // We check to see if the value of that variable is the string "Mary"
 // If so, we console.log "Hi, Mary!"
 // If it is not, we console.log "How do you do?"
+// In this case, the value that will get logged to the console is "How do you do?"
 
 //CODE
 /*
@@ -48,6 +49,7 @@ if (name === 'Mary') {
 // Create a conditional function that sets assings the value of string "super" to the variable "sectre", and multiples the value of variable "code" by two if the variable code is strictly equal to the number 123.
 // If the vale of variable "code" is greater than the number 250, the variable "secret" will be set to the string "duper"
 // the value of variable "secret" will be logged to the console at the end of the function.
+// In this case, the value that will be logged to the console will be "super"
 
 //CODE
 /*
@@ -74,6 +76,7 @@ console.log(secret)
 // If the previous condition is not met, the function will log the string "What are your hoppies?" if the variable isStudent is false OR the variable age has a value less than 30
 // If the previous condition is not met, the function will log the string "Welcome to Prime!" if the variable isStudent is true
 // If none of the previous conditions are met, the funciton logs "How about the weather?"
+// In this case, "Welcome to Prime!" will be logged to the console.
 
 //CODE
 /*
@@ -130,6 +133,7 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - color who also needs to be set to "purple"
 if (mix === true) {
   colorOne = 'purple';
 }
